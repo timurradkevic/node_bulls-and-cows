@@ -2,9 +2,10 @@
 'use strict';
 
 import readline from 'node:readline';
-import { getBullsAndCows } from './modules/getBullsAndCows.js';
-import { generateRandomNumber } from './modules/generateRandomNumber.js';
-import { checkIsValidUserInput } from './modules/checkIsValidUserInput.js';
+
+const { getBullsAndCows } = require('./modules/getBullsAndCows.js');
+const { generateRandomNumber } = require('./modules/generateRandomNumber.js');
+const { checkIsValidUserInput } = require('./modules/checkIsValidUserInput.js');
 
 const numberToGuess = generateRandomNumber();
 
