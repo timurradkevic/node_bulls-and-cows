@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 'use strict';
 
-import readline from 'node:readline';
+const readline = require('node:readline');
 
 const { getBullsAndCows } = require('./modules/getBullsAndCows.js');
 const { generateRandomNumber } = require('./modules/generateRandomNumber.js');
